@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap");
+/* 
+font-family: 'Lobster', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+:root {
+  --Orange: #fc6703;
+  --White: #ffffff;
+  --Grey-white: #efefef;
+  --Black: #000000;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.nav-link {
+  color: var(--Orange);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.location-claim {
+  color: var(--White);
+  font-family: "Lobster", sans-serif;
+  font-size: 72px;
+}
+.quote {
+  font-size: 24px;
+}
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-header {
+  color: var(--White);
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+.pizza-card {
+  background-color: var(--Grey-white);
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400px;
+}
