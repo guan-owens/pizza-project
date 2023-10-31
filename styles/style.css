@@ -104,10 +104,10 @@ nav div ul {
   height: 80%;
   background-color: var(--Orange);
   border-radius: 10px;
+}
 
 .nav.nav-tabs {
   background-color: transparent;
-
 }
 
 .customize-menu.container {
@@ -172,9 +172,6 @@ nav div ul {
   height: 130px;
   object-fit: cover;
 }
-.dropdown-toggle {
-  width: 100%;
-}
 
 .tabcontent {
   display: none;
@@ -183,4 +180,11 @@ nav div ul {
 .navlink.active {
   text-decoration: none;
   background-color: var(--Grey-white);
+}
+
+.form-select {
+  background-color: var(--Orange);
+  font-size: 20px;
+  color: var(--White);
+  font-weight: bold;
 }
