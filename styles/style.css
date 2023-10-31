@@ -85,8 +85,10 @@ form#search {
 }
 
 .hero-container {
+  width: 100%;
   background-image: url("../assets/img/hero-img.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .btn_build_pizza :hover {
