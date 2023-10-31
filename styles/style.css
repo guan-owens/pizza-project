@@ -94,3 +94,7 @@ form#search {
 .btn_build_pizza :hover {
   background-color: aqua;
 }
+
+nav div ul {
+  list-style: none;
+}
