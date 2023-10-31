@@ -83,15 +83,22 @@
             <div class="customize-menu menu-tabs d-flex flex-column">
               <ul class="nav nav-tabs">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    onclick="openItem(event, 'page-1')"
                     >Size & Crust</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Cheese & Sauce</a>
+                  <a class="nav-link" onclick="openItem(event, 'page-2')"
+                    >Cheese & Sauce</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Toppings</a>
+                  <a class="nav-link" onclick="openItem(event, 'page-3')"
+                    >Toppings</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link disabled" aria-disabled="true">Checkout</a>
@@ -99,7 +106,7 @@
               </ul>
               <div
                 class="nav-page page-1 order-0 d-none flex-column p-3 gap-4"
-                id="first"
+                id="tabcontent"
               >
                 <!-- Place menu page contents here -->
                 <h2>Select your crust and size</h2>
@@ -239,7 +246,7 @@
               </div>
               <div
                 class="nav-page page-2 order-1 d-none flex-column p-2"
-                id="second"
+                id="tabcontent"
               >
                 <!-- Place menu page contents here -->
                 <h2>Select your sauce & amount (2 max)</h2>
@@ -460,7 +467,7 @@
               </div>
               <div
                 class="nav-page page-3 order-2 d-flex flex-column p-2"
-                id="third"
+                id="tabcontent"
               >
                 <!-- Place menu page contents here -->
                 <h2>Select your toppings</h2>
@@ -824,7 +831,7 @@
                   </div>
                 </div>
               </div>
-              <div class="nav-page page-4 order-3 d-none" id="checkout">
+              <div class="nav-page page-4 order-3 d-none" id="tabcontent">
                 <!-- Place menu page contents here -->
               </div>
             </div>
@@ -847,5 +854,7 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
