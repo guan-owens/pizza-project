@@ -174,3 +174,7 @@ nav div ul {
 .dropdown-toggle {
   width: 100%;
 }
+
+#tabcontent {
+  display: none;
+}
