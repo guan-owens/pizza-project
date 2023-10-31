@@ -184,3 +184,9 @@ nav div ul {
   color: var(--White);
   font-weight: bold;
 }
+
+li .navlink.active {
+  background-color: var(--Grey-white);
+  font-weight: 700;
+  color: #000000;
+}
