@@ -15,6 +15,10 @@ font-family: 'Montserrat', sans-serif;
   --Black: #000000;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .page-wrapper {
   display: flex;
   flex-direction: column;
@@ -32,16 +36,27 @@ a {
 
 .location-claim {
   color: var(--White);
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+.welcome-message {
+  color: var(--White);
   font-family: "Lobster", sans-serif;
-  font-size: 72px;
+  font-size: 64px;
 }
 .quote {
   font-size: 24px;
+  font-weight: 400;
+  color: var(--White);
 }
-.button {
+.btn {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 20px;
+  background-color: var(--Orange);
+  border-radius: 0 10 px 10px 0;
+  color: var(--White);
 }
 .section-header {
   color: var(--White);
@@ -56,6 +71,24 @@ a {
   font-weight: 400px;
 }
 
-.menu-item a {
-  text-decoration: none;
+form#search {
+  & input {
+    border-radius: 10px 0 0 10px;
+    border: none;
+  }
+  & .btn {
+    border-radius: 0px 10px 10px 0px;
+    &.btn {
+      border: none;
+    }
+  }
+}
+
+.hero-container {
+  background-image: url("../assets/img/hero-img.png");
+  background-size: cover;
+}
+
+.btn_build_pizza :hover {
+  background-color: aqua;
 }

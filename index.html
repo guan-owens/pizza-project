@@ -16,7 +16,6 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-  
 
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -26,34 +25,60 @@
       <nav class="container-fluid h-100">
         <div class="row">
           <div class="col-md-6">
-            <img class = "logo" src="./assets/img/logo.svg" alt="logo" />
+            <img class="logo" src="./assets/img/logo.svg" alt="logo" />
           </div>
-          <div class="col-md-6 d-flex flex-column justify-content-center ">
-            <ul class="d-flex gap-5 justify-content-end align-items-center my-0">
-                <li><a class="link-underline-opacity-0" href="#">Home</a></li>
-                <li><a href="#">Order Online</a></li>
-                <li><a href="#">About Us</a></li>
-                <li>
-                  <span class="d-flex gap-1">
-                    <img src="./assets/img/person.svg" alt="" />
-                    <a href=""> Sign Up</a>
-                  </span>
-                </li>
-              </ul>
-          </div>   
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <ul
+              class="d-flex gap-5 justify-content-end align-items-center my-0"
+            >
+              <li><a class="link-underline-opacity-0" href="#">Home</a></li>
+              <li><a href="#">Order Online</a></li>
+              <li><a href="#">About Us</a></li>
+              <li>
+                <span class="d-flex gap-1">
+                  <img src="./assets/img/person.svg" alt="" />
+                  <a href=""> Sign Up</a>
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
-        </nav>  
-      <main>
-        <div class=""></div>
+      </nav>
 
+      <main>
+        <div class="welcome-box my-5">
+          <div class="d-flex gap-5 justify-content-between">
+            <div class="location-claim">Find a location near you!</div>
+            <form action="" class="d-flex" id="search">
+              <input
+                type="number"
+                placeholder="   zipcode "
+                class="table-borderless"
+              />
+              <button class="btn btn-primary">Search</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="hero-container">
+          <div class="col-5 p-5">
+            <div class="welcome-message">Welcome to Pizza World!</div>
+            <div class="quote mb-5">
+              <span class="display-5">"</span>Home made, fresh oven baked
+              pizza." - Since 1995.
+            </div>
+            <button class="btn mb-5 d-flex btn_build_pizza align-items-center">
+              <span>Build my pizza</span>
+              <img class src="./assets/img/icon_chevron_right.svg" alt="" />
+            </button>
+          </div>
+        </div>
       </main>
       <footer>
         <!-- place footer here -->
       </footer>
-      <!-- Bootstrap JavaScript Libraries -->
-   
-   
-
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
