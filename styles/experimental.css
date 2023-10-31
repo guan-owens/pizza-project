@@ -1,0 +1,75 @@
+/* .navbar-container {
+  padding: 30px 0px;
+}
+
+.navbar-container ul {
+  list-style: none;
+} */
+
+/*
+* Order Card
+*/
+/* 
+.container.order-card-container {
+  margin-top: 40px;
+  min-width: 85%;
+  min-height: 70%;
+  border-radius: 10px;
+  background-color: var(--Grey-white);
+}
+
+.progress-stepper.container {
+  position: relative;
+}
+
+.progress-stepper .line {
+  background-color: var(--Grey-white);
+  height: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15) inset;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  right: 50px;
+  z-index: 0;
+}
+
+.progress-stepper .steps {
+  z-index: 1;
+  width: 100px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.progress-stepper .outer-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: var(--Grey-white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  cursor: pointer;
+}
+
+.progress-stepper .inner-circle {
+  width: 27px;
+  height: 27px;
+  border-radius: 100px;
+  background-color: var(--Grey-white);
+  border: 5px solid var(--Orange);
+}
+
+.progress-stepper .carrot {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-bottom: 5px solid var(--Orange);
+}
+
+.progress-stepper .label {
+  background-color: var(--Orange);
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--White);
+} */
