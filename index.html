@@ -45,7 +45,7 @@
         </div>
       </nav>
 
-      <main>
+      <main class="mb-5">
         <div class="welcome-box my-5">
           <div class="d-flex gap-5 justify-content-between">
             <div class="location-claim">Find a location near you!</div>
@@ -93,7 +93,7 @@
               <a class="nav-link disabled" aria-disabled="true">Checkout</a>
             </li>
           </ul>
-          <div class="nav-page 1 order-0 d-flex flex-column" id="first">
+          <div class="nav-page 1 order-0 d-none flex-column" id="first">
             <!-- Place menu page contents here -->
             <h2>Select your crust and size</h2>
             <div class="card-wrapper d-flex flex-row gap-4">
@@ -159,11 +159,444 @@
               </div>
             </div>
           </div>
-          <div class="nav-page 2 order-1 d-none" id="second">
+          <div class="nav-page 2 order-1 d-flex flex-column p-2" id="second">
             <!-- Place menu page contents here -->
+            <h2>Select your sauce & amount (2 max)</h2>
+            <div class="card-wrapper d-flex flex-row gap-4">
+              <!-- Tomato Card -->
+              <div d-flex flex-column>
+                <div class="card">
+                  <img
+                    src="./assets/img/tomato-sauce.png"
+                    class="card-img-top"
+                    alt="tomato-sauce"
+                  />
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center gap-3"
+                  >
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Tomato
+                    </label>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                  </div>
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Amount
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Light</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Regular</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Extra ($2)</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex gap-2 mt-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Full
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Half
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex flex-column">
+                <div class="card">
+                  <img
+                    src="./assets/img/bbq-sauce.png"
+                    class="card-img-top img-fluid"
+                    alt="bbq-sauce"
+                  />
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center gap-3"
+                  >
+                    <label class="form-check-label" for="flexCheckDefault">
+                      BBQ
+                    </label>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                  </div>
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Amount
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Light</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Regular</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Extra ($2)</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex gap-2 mt-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Full
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Half
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="card">
+                  <img
+                    src="./assets/img/marinara-sauce.png"
+                    class="card-img-top"
+                    alt="marinara-sauce"
+                  />
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center gap-3"
+                  >
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Marinara
+                    </label>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                  </div>
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Amount
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Light</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Regular</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Extra ($2)</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex gap-2 mt-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Full
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Half
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="nav-page 3 order-2 d-none" id="third">
+          <div class="nav-page 3 order-2 d-none flex-column p-2" id="third">
             <!-- Place menu page contents here -->
+
+            <h2>Select your toppings</h2>
+            <div class="card-wrapper d-flex flex-row gap-4">
+              <!-- Tomato Card -->
+              <div d-flex flex-column>
+                <div class="card">
+                  <img
+                    src="./assets/img/topping-pepperroni.png"
+                    class="card-img-top"
+                    alt="tomato-sauce"
+                  />
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center gap-3"
+                  >
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Pepporoni
+                    </label>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                  </div>
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Amount
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Light</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Regular</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Extra ($2)</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex gap-2 mt-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Full
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Half
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex flex-column">
+                <div class="card">
+                  <img
+                    src="./assets/img/topping-chicken.png"
+                    class="card-img-top img-fluid"
+                    alt="bbq-sauce"
+                  />
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center gap-3"
+                  >
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Chick
+                    </label>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                  </div>
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Amount
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Light</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Regular</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Extra ($2)</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex gap-2 mt-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Full
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Half
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="card">
+                  <img
+                    src="./assets/img/topping-sausage.png"
+                    class="card-img-top"
+                    alt="marinara-sauce"
+                  />
+                  <div
+                    class="card-body d-flex justify-content-between align-items-center gap-3"
+                  >
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Sausage
+                    </label>
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                  </div>
+                </div>
+                <div class="dropdown mt-3">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Amount
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Light</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Regular</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Extra ($2)</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex gap-2 mt-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Full
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Half
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="nav-page 4 order-3 d-none" id="checkout">
             <!-- Place menu page contents here -->
@@ -175,7 +608,7 @@
       </footer>
     </div>
     <!-- Bootstrap JavaScript Libraries -->
-    <!-- <script
+    <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
@@ -185,6 +618,6 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
-    ></script> -->
+    ></script>
   </body>
 </html>
