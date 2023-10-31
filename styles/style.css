@@ -98,3 +98,54 @@ form#search {
 nav div ul {
   list-style: none;
 }
+
+.customize-menu {
+  width: 80%;
+  height: 80%;
+}
+
+.customize-menu .menu-tabs {
+  background-color: var(--Grey-white);
+}
+
+.nav-page {
+  background-color: var(--Grey-white);
+  width: 100%;
+  height: 400px;
+}
+
+.card {
+  width: 240px;
+  height: 130px;
+}
+
+.card img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-body {
+  position: absolute;
+  bottom: 0px;
+}
+
+.card-body label {
+  color: var(--Grey-white);
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+}
+
+.card-body input {
+  border-color: var(--Orange);
+  border-width: 3px;
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.card-image-top {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
