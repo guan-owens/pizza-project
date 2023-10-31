@@ -1,9 +1,9 @@
 function openItem(evt, tabName) {
   // Declare all variables
-  var i, tabcontent, navlink;
+  let i, tabcontent, navlink;
 
   // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementById("tabcontent");
+  tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
@@ -15,6 +15,6 @@ function openItem(evt, tabName) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(tabName).style.display = "block";
+  document.getElementById(tabName).style.display = "flex";
   evt.currentTarget.className += " active";
 }

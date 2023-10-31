@@ -127,6 +127,7 @@ nav div ul {
 .nav-item {
   background-color: var(--Grey-white);
   border-radius: 10px 10px 0 0;
+  padding: 10px;
 }
 
 .card-menu {
@@ -175,6 +176,11 @@ nav div ul {
   width: 100%;
 }
 
-#tabcontent {
+.tabcontent {
   display: none;
+}
+
+.navlink.active {
+  text-decoration: none;
+  background-color: var(--Grey-white);
 }
