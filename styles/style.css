@@ -1,6 +1,3 @@
-@framework {
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap");
 @import url("_resets.css");
 /* 
@@ -107,7 +104,6 @@ nav div ul {
 }
 
 .customize-menu.container {
-  width: 80%;
   height: 100%;
   background-color: var(--Orange);
   border-radius: 10px;
@@ -173,9 +169,8 @@ nav div ul {
   display: none;
 }
 
-.navlink.active {
-  text-decoration: none;
-  background-color: var(--Grey-white);
+.tabcontent.page-1 {
+  display: flex;
 }
 
 .form-select {
