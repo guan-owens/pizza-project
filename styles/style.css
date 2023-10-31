@@ -91,10 +91,6 @@ form#search {
   background-repeat: no-repeat;
 }
 
-.btn_build_pizza :hover {
-  background-color: aqua;
-}
-
 nav div ul {
   list-style: none;
 }
